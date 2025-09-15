@@ -52,6 +52,30 @@ case $SELECTED_THEME in
   )
   ;;
 
+"moon")
+  declare -A THEME=(
+    ["background"]="#222436"
+    ["foreground"]="#828bb8"
+    ["black"]="#3b4261"
+    ["blue"]="#82aaff"
+    ["cyan"]="#86e1fc"
+    ["green"]="#c3e88d"
+    ["magenta"]="#c099ff"
+    ["red"]="#ff757f"
+    ["white"]="#c8d3f5"
+    ["yellow"]="#ffc777"
+
+    ["bblack"]="#2f334d"
+    ["bblue"]="#82aaff"
+    ["bcyan"]="#86e1fc"
+    ["bgreen"]="#4fd6be"
+    ["bmagenta"]="#c099ff"
+    ["bred"]="#ff966c"
+    ["bwhite"]="#545c7e"
+    ["byellow"]="#ffc777"
+  )
+  ;;
+
 *)
   # Default to night theme
   declare -A THEME=(
